@@ -1,0 +1,7 @@
+[mpd-server]
+server=localhost
+port=6600
+password=
+
+[music]
+music-root=/data/music
