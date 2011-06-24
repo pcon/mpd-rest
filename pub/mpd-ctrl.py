@@ -40,7 +40,7 @@ def main():
         print '{ "status": "failure", "message": "failed to connect to MPD server. '+HOST+':'+PORT+'"}'
         sys.exit(-1)
 
-    if PASSWORD != '' and PASSWORD != Null:
+    if PASSWORD != '':
         if not mpdAuth(client, PASSWORD):
             print '{ "status": "failure", "message": "failed to auth against MPD server."}'
             sys.exit(-1)
