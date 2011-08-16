@@ -61,7 +61,7 @@ def main():
             client.previous()
             print '{ "status": "success" }'
     except CommandError:
-        print '{ "status": "failure", "message": "unknown commane" }'
+        print '{ "status": "failure", "message": "unknown command" }'
 
 if __name__ == "__main__":
     main()
